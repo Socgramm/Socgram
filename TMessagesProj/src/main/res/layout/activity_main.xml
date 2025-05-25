@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:padding="10dp"
+        android:clickable="true"
+        android:background="@drawable/bg_dialog"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/imageReklama"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtReklama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/linearLayout3"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <com.yandex.mobile.ads.banner.BannerAdView
+            android:id="@+id/banner_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</LinearLayout>

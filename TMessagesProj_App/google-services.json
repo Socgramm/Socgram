@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "583227777881",
+    "firebase_url": "https://socgram-e3945-default-rtdb.firebaseio.com",
+    "project_id": "socgram-e3945",
+    "storage_bucket": "socgram-e3945.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583227777881:android:0a602362d645863a76a248",
+        "android_client_info": {
+          "package_name": "org.messengers.socgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583227777881-3kmg3l2chgek8n3rbvqck21lkja0i18v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.messengers.socgram",
+            "certificate_hash": "97655e12ff25a71afd941bb2dbe7a95e1eaf7596"
+          }
+        },
+        {
+          "client_id": "583227777881-42q1lqcm38jt67oa080sa2gbs6rigo64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7i4hrqtuNNSarKKtvIFaqn9IJgJ8H-3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583227777881-42q1lqcm38jt67oa080sa2gbs6rigo64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583227777881:android:1740e60b84dc727c76a248",
+        "android_client_info": {
+          "package_name": "org.messengers.socgram.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583227777881-42q1lqcm38jt67oa080sa2gbs6rigo64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7i4hrqtuNNSarKKtvIFaqn9IJgJ8H-3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583227777881-42q1lqcm38jt67oa080sa2gbs6rigo64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583227777881:android:31fc903397a7ff0a76a248",
+        "android_client_info": {
+          "package_name": "org.messengers.socgram.web"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583227777881-42q1lqcm38jt67oa080sa2gbs6rigo64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7i4hrqtuNNSarKKtvIFaqn9IJgJ8H-3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583227777881-42q1lqcm38jt67oa080sa2gbs6rigo64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
